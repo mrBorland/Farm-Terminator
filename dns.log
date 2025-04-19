@@ -1,0 +1,5 @@
+nohup: ignoring input
+2025-04-18T19:46:22Z INF Adding DNS upstream url=https://1.1.1.1/dns-query
+2025-04-18T19:46:22Z INF Adding DNS upstream url=https://1.0.0.1/dns-query
+2025-04-18T19:46:22Z INF Starting DNS over HTTPS proxy server address=dns://localhost:5053
+2025-04-18T19:46:22Z INF Starting metrics server on 127.0.0.1:36579/metrics

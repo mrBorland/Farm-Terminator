@@ -1,0 +1,11 @@
++ echo '[1/4] Оновлюємо код із GitHub…'
+[1/4] Оновлюємо код із GitHub…
++ git fetch origin main
+From https://github.com/mrBorland/Mainingbotrobot
+ * branch            main       -> FETCH_HEAD
++ git reset --hard origin/main
+HEAD is now at 1062806 Update auto_fix_accounts.py
++ echo '[2/4] Завантажую акаунти…'
+[2/4] Завантажую акаунти…
++ mkdir -p data
++ wget -qO data/accounts_crypto_autogen.json https://raw.githubusercontent.com/mrBorland/Mainingbotrobot/main/data/accounts_crypto_autogen.json

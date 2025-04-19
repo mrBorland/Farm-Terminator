@@ -1,0 +1,702 @@
+[
+  {
+    "name": "user1",
+    "email": "user1@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.1:8080:user:pass",
+    "cookies": "cookie_data_for_user1"
+  },
+  {
+    "name": "user2",
+    "email": "user2@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.2:8080:user:pass",
+    "cookies": "cookie_data_for_user2"
+  },
+  {
+    "name": "user3",
+    "email": "user3@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.3:8080:user:pass",
+    "cookies": "cookie_data_for_user3"
+  },
+  {
+    "name": "user4",
+    "email": "user4@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.4:8080:user:pass",
+    "cookies": "cookie_data_for_user4"
+  },
+  {
+    "name": "user5",
+    "email": "user5@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.5:8080:user:pass",
+    "cookies": "cookie_data_for_user5"
+  },
+  {
+    "name": "user6",
+    "email": "user6@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.6:8080:user:pass",
+    "cookies": "cookie_data_for_user6"
+  },
+  {
+    "name": "user7",
+    "email": "user7@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.7:8080:user:pass",
+    "cookies": "cookie_data_for_user7"
+  },
+  {
+    "name": "user8",
+    "email": "user8@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.8:8080:user:pass",
+    "cookies": "cookie_data_for_user8"
+  },
+  {
+    "name": "user9",
+    "email": "user9@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.9:8080:user:pass",
+    "cookies": "cookie_data_for_user9"
+  },
+  {
+    "name": "user10",
+    "email": "user10@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.10:8080:user:pass",
+    "cookies": "cookie_data_for_user10"
+  },
+  {
+    "name": "user11",
+    "email": "user11@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.11:8080:user:pass",
+    "cookies": "cookie_data_for_user11"
+  },
+  {
+    "name": "user12",
+    "email": "user12@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.12:8080:user:pass",
+    "cookies": "cookie_data_for_user12"
+  },
+  {
+    "name": "user13",
+    "email": "user13@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.13:8080:user:pass",
+    "cookies": "cookie_data_for_user13"
+  },
+  {
+    "name": "user14",
+    "email": "user14@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.14:8080:user:pass",
+    "cookies": "cookie_data_for_user14"
+  },
+  {
+    "name": "user15",
+    "email": "user15@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.15:8080:user:pass",
+    "cookies": "cookie_data_for_user15"
+  },
+  {
+    "name": "user16",
+    "email": "user16@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.16:8080:user:pass",
+    "cookies": "cookie_data_for_user16"
+  },
+  {
+    "name": "user17",
+    "email": "user17@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.17:8080:user:pass",
+    "cookies": "cookie_data_for_user17"
+  },
+  {
+    "name": "user18",
+    "email": "user18@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.18:8080:user:pass",
+    "cookies": "cookie_data_for_user18"
+  },
+  {
+    "name": "user19",
+    "email": "user19@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.19:8080:user:pass",
+    "cookies": "cookie_data_for_user19"
+  },
+  {
+    "name": "user20",
+    "email": "user20@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.20:8080:user:pass",
+    "cookies": "cookie_data_for_user20"
+  },
+  {
+    "name": "user21",
+    "email": "user21@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.21:8080:user:pass",
+    "cookies": "cookie_data_for_user21"
+  },
+  {
+    "name": "user22",
+    "email": "user22@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.22:8080:user:pass",
+    "cookies": "cookie_data_for_user22"
+  },
+  {
+    "name": "user23",
+    "email": "user23@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.23:8080:user:pass",
+    "cookies": "cookie_data_for_user23"
+  },
+  {
+    "name": "user24",
+    "email": "user24@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.24:8080:user:pass",
+    "cookies": "cookie_data_for_user24"
+  },
+  {
+    "name": "user25",
+    "email": "user25@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.25:8080:user:pass",
+    "cookies": "cookie_data_for_user25"
+  },
+  {
+    "name": "user26",
+    "email": "user26@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.26:8080:user:pass",
+    "cookies": "cookie_data_for_user26"
+  },
+  {
+    "name": "user27",
+    "email": "user27@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.27:8080:user:pass",
+    "cookies": "cookie_data_for_user27"
+  },
+  {
+    "name": "user28",
+    "email": "user28@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.28:8080:user:pass",
+    "cookies": "cookie_data_for_user28"
+  },
+  {
+    "name": "user29",
+    "email": "user29@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.29:8080:user:pass",
+    "cookies": "cookie_data_for_user29"
+  },
+  {
+    "name": "user30",
+    "email": "user30@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.30:8080:user:pass",
+    "cookies": "cookie_data_for_user30"
+  },
+  {
+    "name": "user31",
+    "email": "user31@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.31:8080:user:pass",
+    "cookies": "cookie_data_for_user31"
+  },
+  {
+    "name": "user32",
+    "email": "user32@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.32:8080:user:pass",
+    "cookies": "cookie_data_for_user32"
+  },
+  {
+    "name": "user33",
+    "email": "user33@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.33:8080:user:pass",
+    "cookies": "cookie_data_for_user33"
+  },
+  {
+    "name": "user34",
+    "email": "user34@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.34:8080:user:pass",
+    "cookies": "cookie_data_for_user34"
+  },
+  {
+    "name": "user35",
+    "email": "user35@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.35:8080:user:pass",
+    "cookies": "cookie_data_for_user35"
+  },
+  {
+    "name": "user36",
+    "email": "user36@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.36:8080:user:pass",
+    "cookies": "cookie_data_for_user36"
+  },
+  {
+    "name": "user37",
+    "email": "user37@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.37:8080:user:pass",
+    "cookies": "cookie_data_for_user37"
+  },
+  {
+    "name": "user38",
+    "email": "user38@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.38:8080:user:pass",
+    "cookies": "cookie_data_for_user38"
+  },
+  {
+    "name": "user39",
+    "email": "user39@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.39:8080:user:pass",
+    "cookies": "cookie_data_for_user39"
+  },
+  {
+    "name": "user40",
+    "email": "user40@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.40:8080:user:pass",
+    "cookies": "cookie_data_for_user40"
+  },
+  {
+    "name": "user41",
+    "email": "user41@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.41:8080:user:pass",
+    "cookies": "cookie_data_for_user41"
+  },
+  {
+    "name": "user42",
+    "email": "user42@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.42:8080:user:pass",
+    "cookies": "cookie_data_for_user42"
+  },
+  {
+    "name": "user43",
+    "email": "user43@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.43:8080:user:pass",
+    "cookies": "cookie_data_for_user43"
+  },
+  {
+    "name": "user44",
+    "email": "user44@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.44:8080:user:pass",
+    "cookies": "cookie_data_for_user44"
+  },
+  {
+    "name": "user45",
+    "email": "user45@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.45:8080:user:pass",
+    "cookies": "cookie_data_for_user45"
+  },
+  {
+    "name": "user46",
+    "email": "user46@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.46:8080:user:pass",
+    "cookies": "cookie_data_for_user46"
+  },
+  {
+    "name": "user47",
+    "email": "user47@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.47:8080:user:pass",
+    "cookies": "cookie_data_for_user47"
+  },
+  {
+    "name": "user48",
+    "email": "user48@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.48:8080:user:pass",
+    "cookies": "cookie_data_for_user48"
+  },
+  {
+    "name": "user49",
+    "email": "user49@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.49:8080:user:pass",
+    "cookies": "cookie_data_for_user49"
+  },
+  {
+    "name": "user50",
+    "email": "user50@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.50:8080:user:pass",
+    "cookies": "cookie_data_for_user50"
+  },
+  {
+    "name": "user51",
+    "email": "user51@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.51:8080:user:pass",
+    "cookies": "cookie_data_for_user51"
+  },
+  {
+    "name": "user52",
+    "email": "user52@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.52:8080:user:pass",
+    "cookies": "cookie_data_for_user52"
+  },
+  {
+    "name": "user53",
+    "email": "user53@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.53:8080:user:pass",
+    "cookies": "cookie_data_for_user53"
+  },
+  {
+    "name": "user54",
+    "email": "user54@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.54:8080:user:pass",
+    "cookies": "cookie_data_for_user54"
+  },
+  {
+    "name": "user55",
+    "email": "user55@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.55:8080:user:pass",
+    "cookies": "cookie_data_for_user55"
+  },
+  {
+    "name": "user56",
+    "email": "user56@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.56:8080:user:pass",
+    "cookies": "cookie_data_for_user56"
+  },
+  {
+    "name": "user57",
+    "email": "user57@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.57:8080:user:pass",
+    "cookies": "cookie_data_for_user57"
+  },
+  {
+    "name": "user58",
+    "email": "user58@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.58:8080:user:pass",
+    "cookies": "cookie_data_for_user58"
+  },
+  {
+    "name": "user59",
+    "email": "user59@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.59:8080:user:pass",
+    "cookies": "cookie_data_for_user59"
+  },
+  {
+    "name": "user60",
+    "email": "user60@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.60:8080:user:pass",
+    "cookies": "cookie_data_for_user60"
+  },
+  {
+    "name": "user61",
+    "email": "user61@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.61:8080:user:pass",
+    "cookies": "cookie_data_for_user61"
+  },
+  {
+    "name": "user62",
+    "email": "user62@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.62:8080:user:pass",
+    "cookies": "cookie_data_for_user62"
+  },
+  {
+    "name": "user63",
+    "email": "user63@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.63:8080:user:pass",
+    "cookies": "cookie_data_for_user63"
+  },
+  {
+    "name": "user64",
+    "email": "user64@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.64:8080:user:pass",
+    "cookies": "cookie_data_for_user64"
+  },
+  {
+    "name": "user65",
+    "email": "user65@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.65:8080:user:pass",
+    "cookies": "cookie_data_for_user65"
+  },
+  {
+    "name": "user66",
+    "email": "user66@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.66:8080:user:pass",
+    "cookies": "cookie_data_for_user66"
+  },
+  {
+    "name": "user67",
+    "email": "user67@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.67:8080:user:pass",
+    "cookies": "cookie_data_for_user67"
+  },
+  {
+    "name": "user68",
+    "email": "user68@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.68:8080:user:pass",
+    "cookies": "cookie_data_for_user68"
+  },
+  {
+    "name": "user69",
+    "email": "user69@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.69:8080:user:pass",
+    "cookies": "cookie_data_for_user69"
+  },
+  {
+    "name": "user70",
+    "email": "user70@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.70:8080:user:pass",
+    "cookies": "cookie_data_for_user70"
+  },
+  {
+    "name": "user71",
+    "email": "user71@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.71:8080:user:pass",
+    "cookies": "cookie_data_for_user71"
+  },
+  {
+    "name": "user72",
+    "email": "user72@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.72:8080:user:pass",
+    "cookies": "cookie_data_for_user72"
+  },
+  {
+    "name": "user73",
+    "email": "user73@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.73:8080:user:pass",
+    "cookies": "cookie_data_for_user73"
+  },
+  {
+    "name": "user74",
+    "email": "user74@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.74:8080:user:pass",
+    "cookies": "cookie_data_for_user74"
+  },
+  {
+    "name": "user75",
+    "email": "user75@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.75:8080:user:pass",
+    "cookies": "cookie_data_for_user75"
+  },
+  {
+    "name": "user76",
+    "email": "user76@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.76:8080:user:pass",
+    "cookies": "cookie_data_for_user76"
+  },
+  {
+    "name": "user77",
+    "email": "user77@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.77:8080:user:pass",
+    "cookies": "cookie_data_for_user77"
+  },
+  {
+    "name": "user78",
+    "email": "user78@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.78:8080:user:pass",
+    "cookies": "cookie_data_for_user78"
+  },
+  {
+    "name": "user79",
+    "email": "user79@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.79:8080:user:pass",
+    "cookies": "cookie_data_for_user79"
+  },
+  {
+    "name": "user80",
+    "email": "user80@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.80:8080:user:pass",
+    "cookies": "cookie_data_for_user80"
+  },
+  {
+    "name": "user81",
+    "email": "user81@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.81:8080:user:pass",
+    "cookies": "cookie_data_for_user81"
+  },
+  {
+    "name": "user82",
+    "email": "user82@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.82:8080:user:pass",
+    "cookies": "cookie_data_for_user82"
+  },
+  {
+    "name": "user83",
+    "email": "user83@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.83:8080:user:pass",
+    "cookies": "cookie_data_for_user83"
+  },
+  {
+    "name": "user84",
+    "email": "user84@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.84:8080:user:pass",
+    "cookies": "cookie_data_for_user84"
+  },
+  {
+    "name": "user85",
+    "email": "user85@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.85:8080:user:pass",
+    "cookies": "cookie_data_for_user85"
+  },
+  {
+    "name": "user86",
+    "email": "user86@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.86:8080:user:pass",
+    "cookies": "cookie_data_for_user86"
+  },
+  {
+    "name": "user87",
+    "email": "user87@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.87:8080:user:pass",
+    "cookies": "cookie_data_for_user87"
+  },
+  {
+    "name": "user88",
+    "email": "user88@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.88:8080:user:pass",
+    "cookies": "cookie_data_for_user88"
+  },
+  {
+    "name": "user89",
+    "email": "user89@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.89:8080:user:pass",
+    "cookies": "cookie_data_for_user89"
+  },
+  {
+    "name": "user90",
+    "email": "user90@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.90:8080:user:pass",
+    "cookies": "cookie_data_for_user90"
+  },
+  {
+    "name": "user91",
+    "email": "user91@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.91:8080:user:pass",
+    "cookies": "cookie_data_for_user91"
+  },
+  {
+    "name": "user92",
+    "email": "user92@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.92:8080:user:pass",
+    "cookies": "cookie_data_for_user92"
+  },
+  {
+    "name": "user93",
+    "email": "user93@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.93:8080:user:pass",
+    "cookies": "cookie_data_for_user93"
+  },
+  {
+    "name": "user94",
+    "email": "user94@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.94:8080:user:pass",
+    "cookies": "cookie_data_for_user94"
+  },
+  {
+    "name": "user95",
+    "email": "user95@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.95:8080:user:pass",
+    "cookies": "cookie_data_for_user95"
+  },
+  {
+    "name": "user96",
+    "email": "user96@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.96:8080:user:pass",
+    "cookies": "cookie_data_for_user96"
+  },
+  {
+    "name": "user97",
+    "email": "user97@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.97:8080:user:pass",
+    "cookies": "cookie_data_for_user97"
+  },
+  {
+    "name": "user98",
+    "email": "user98@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.98:8080:user:pass",
+    "cookies": "cookie_data_for_user98"
+  },
+  {
+    "name": "user99",
+    "email": "user99@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.99:8080:user:pass",
+    "cookies": "cookie_data_for_user99"
+  },
+  {
+    "name": "user100",
+    "email": "user100@example.com",
+    "password": "SecurePass123!",
+    "proxy": "192.168.1.100:8080:user:pass",
+    "cookies": "cookie_data_for_user100"
+  }
+]

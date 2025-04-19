@@ -1,0 +1,68 @@
+#!/usr/bin/env python3 import os import shutil import json import subprocess from pathlib import Path
+
+--------------------------------------
+
+Configuration
+
+--------------------------------------
+
+ROOT = Path(file).parent.resolve() DATA = ROOT / 'data' MODULES = ROOT / 'modules' WALLETS_FILE = ROOT / 'wallets_bnb.json' BOUND_FILE = DATA / 'accounts_crypto_bound.json'
+
+List of allowed file extensions
+
+ALLOWED_EXTENSIONS = {'.py', '.json', '.sh', '.md'}
+
+Scripts to invoke for farming checks
+
+CHECK_SCRIPTS = [ 'check_balance.py', 'check_polygon_balance.py', 'check_usdt_balances.py', ]
+
+--------------------------------------
+
+Helpers
+
+--------------------------------------
+
+def find_extraneous_files(): """ Поиск файлов в корне, не относящихся к основным директориям или имеющих неподдерживаемые расширения. """ extraneous = [] for path in ROOT.iterdir(): if path.is_file(): ext = path.suffix.lower() if ext not in ALLOWED_EXTENSIONS: extraneous.append(path) elif path.is_dir() and path.name not in {'data', 'modules'}: # любые папки кроме data и modules считаем потенциально лишними extraneous.append(path) return extraneous
+
+def relocate(path: Path): """ Перенос лишнего файла или папки в директорию modules. """ dest = MODULES / path.name dest.parent.mkdir(parents=True, exist_ok=True) shutil.move(str(path), str(dest)) print(f'[ACTION] Перемістив {path} -> {dest}')
+
+def verify_accounts_bound(): """ Сверяем, что к файлу bound привязано столько же аккаунтов, сколько кошельков в wallets_bnb.json. Если аккаунтов больше — удаляем лишние. """ try: with open(BOUND_FILE, 'r') as f: accounts = json.load(f) with open(WALLETS_FILE, 'r') as f: wallets = json.load(f) except FileNotFoundError as e: print(f'[ERROR] Не знайдено файл: {e.filename}') return
+
+count_acc = len(accounts)
+count_wal = len(wallets)
+print(f'[INFO] Аккаунтів у bound: {count_acc}, гаманців у wallets: {count_wal}')
+if count_acc > count_wal:
+    # обрезаем лишние аккаунты в конце списка
+    trimmed = accounts[:count_wal]
+    with open(BOUND_FILE, 'w') as f:
+        json.dump(trimmed, f, indent=2)
+    print(f'[ACTION] Видалено {count_acc - count_wal} зайвих записів у {BOUND_FILE.name}')
+elif count_acc < count_wal:
+    print(f'[WARNING] Мене виявлено менше аккаунтів, ніж гаманців ({count_acc} < {count_wal}).')
+else:
+    print('[OK] Кількість аккаунтів та гаманців співпадає.')
+
+def run_farming_checks(): """ Виконує скрипти перевірки балансу та фарму. """ for script in CHECK_SCRIPTS: script_path = ROOT / script if script_path.exists(): print(f'[CHECK] Запуск {script}...') subprocess.run(['python3', str(script_path)], check=False) else: print(f'[SKIP] Скрипт {script} не знайдено.')
+
+def main(): print('=== Bot Health Check ===')
+
+# 1) Проверка лишніх файлов
+extraneous = find_extraneous_files()
+if extraneous:
+    print('[INFO] Знайдено потенційно зайві файли/папки:')
+    for p in extraneous:
+        print('  -', p)
+        relocate(p)
+else:
+    print('[OK] Зайвих файлів не знайдено.')
+
+# 2) Проверка привязки кошельков и аккаунтов
+verify_accounts_bound()
+
+# 3) Проверка фармингу на платформах
+run_farming_checks()
+
+print('=== Перевірка завершена ===')
+
+if name == 'main': main()
+

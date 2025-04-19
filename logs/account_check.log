@@ -1,0 +1,83 @@
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b81272a20>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user1 | Wallet: 0x0000000000000000000000000000000000000001 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7ad50>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user2 | Wallet: 0x0000000000000000000000000000000000000002 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7ae10>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user3 | Wallet: 0x0000000000000000000000000000000000000003 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7a000>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user4 | Wallet: 0x0000000000000000000000000000000000000004 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b410>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user5 | Wallet: 0x0000000000000000000000000000000000000005 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7bb90>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user6 | Wallet: 0x0000000000000000000000000000000000000006 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bac4d0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user7 | Wallet: 0x0000000000000000000000000000000000000007 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bacce0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user8 | Wallet: 0x0000000000000000000000000000000000000008 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b950>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user9 | Wallet: 0x0000000000000000000000000000000000000009 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b500>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user10 | Wallet: 0x000000000000000000000000000000000000000a | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7ac00>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user11 | Wallet: 0x000000000000000000000000000000000000000b | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bac320>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user12 | Wallet: 0x000000000000000000000000000000000000000c | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bad4c0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user13 | Wallet: 0x000000000000000000000000000000000000000d | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80baddf0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user14 | Wallet: 0x000000000000000000000000000000000000000e | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7aab0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user15 | Wallet: 0x000000000000000000000000000000000000000f | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b290>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user16 | Wallet: 0x0000000000000000000000000000000000000010 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7bf50>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user17 | Wallet: 0x0000000000000000000000000000000000000011 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bad2b0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user18 | Wallet: 0x0000000000000000000000000000000000000012 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80badf40>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user19 | Wallet: 0x0000000000000000000000000000000000000013 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bae870>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user20 | Wallet: 0x0000000000000000000000000000000000000014 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7bda0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user21 | Wallet: 0x0000000000000000000000000000000000000015 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b3b0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user22 | Wallet: 0x0000000000000000000000000000000000000016 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7ac00>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user23 | Wallet: 0x0000000000000000000000000000000000000017 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bae6f0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user24 | Wallet: 0x0000000000000000000000000000000000000018 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bac2c0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user25 | Wallet: 0x0000000000000000000000000000000000000019 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bad040>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user26 | Wallet: 0x000000000000000000000000000000000000001a | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7ac60>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user27 | Wallet: 0x000000000000000000000000000000000000001b | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7aff0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user28 | Wallet: 0x000000000000000000000000000000000000001c | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b79ee0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user29 | Wallet: 0x000000000000000000000000000000000000001d | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80baecc0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user30 | Wallet: 0x000000000000000000000000000000000000001e | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bac170>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user31 | Wallet: 0x000000000000000000000000000000000000001f | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bae510>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user32 | Wallet: 0x0000000000000000000000000000000000000020 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b81272a20>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user33 | Wallet: 0x0000000000000000000000000000000000000021 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b3e0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user34 | Wallet: 0x0000000000000000000000000000000000000022 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7af30>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user35 | Wallet: 0x0000000000000000000000000000000000000023 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7afc0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user36 | Wallet: 0x0000000000000000000000000000000000000024 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bae5a0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user37 | Wallet: 0x0000000000000000000000000000000000000025 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80bad3d0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user38 | Wallet: 0x0000000000000000000000000000000000000026 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80baf1a0>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user39 | Wallet: 0x0000000000000000000000000000000000000027 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7ae70>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user40 | Wallet: 0x0000000000000000000000000000000000000028 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b79f40>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
+Account: user41 | Wallet: 0x0000000000000000000000000000000000000029 | Active: False
+[ERROR] 0x00000000... -> HTTPSConnectionPool(host='graphigo.prd.galxe.com', port=443): Max retries exceeded with url: /query (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7b80b7b890>: Failed to resolve 'graphigo.prd.galxe.com' ([Errno 7] No address associated with hostname)"))
