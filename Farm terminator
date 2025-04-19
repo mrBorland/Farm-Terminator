@@ -1,0 +1,18 @@
+Farm Terminator — AutoFarmBot launcher
+
+import os import subprocess from datetime import datetime import json
+
+MODULES = [ ("Galxe", "modules/galxe/galxe_farm.py"), ("Zealy", "modules/zealy/zealy_farm.py"), ("Layer3", "modules/layer3/layer3_farm.py"), ("Smart Click Farm", "modules/clickfarm/smart_click_farm.py") ]
+
+ACCOUNTS_FILE = "data/accounts_crypto_bound.json" LOG_FILE = "farm_log.txt"
+
+def log(text): timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]") with open(LOG_FILE, "a") as f: f.write(f"{timestamp} {text}\n") print(f"{timestamp} {text}")
+
+def load_wallets(): with open(ACCOUNTS_FILE, "r") as f: return json.load(f)
+
+def launch_module(name, script, wallet): try: cmd = ["python3", script, "--wallet-index", str(wallet), "--wallets-file", ACCOUNTS_FILE] result = subprocess.run(cmd, capture_output=True, text=True, check=True) log(f"[{name}] Успіх: {result.stdout.strip()}") except subprocess.CalledProcessError as e: log(f"[{name}] Помилка виконання! {e.stderr.strip() if e.stderr else e}")
+
+def main(): log("[START] Farm Terminator — запуск усіх напрямків") wallets = load_wallets() for i, wallet in enumerate(wallets): for name, script in MODULES: log(f"[RUN] {name} — wallet {i}") launch_module(name, script, i) log("[DONE] Усі модулі завершено.")
+
+if name == "main": main()
+
