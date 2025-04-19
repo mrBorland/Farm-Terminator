@@ -1,0 +1,37 @@
+import re from pathlib import Path import json import shutil import os
+
+def fix_galxe_script(): path = Path("modules/galxe/galxe_farm_real.py") if not path.exists(): print(f"[!] Не знайдено {path}") return
+
+text = path.read_text(encoding="utf-8")
+new_text = re.sub(r"wallet'address'", "wallet.get('address', wallet.get('wallet'))", text)
+
+if new_text != text:
+    path.write_text(new_text, encoding="utf-8")
+    print(f"[+] Оновлено {path}")
+else:
+    print(f"[*] {path} вже містить правильний ключ")
+
+def fix_auto_farm_reporter(): path = Path("auto_farm_reporter.py") if not path.exists(): print(f"[!] Не знайдено {path}") return
+
+text = path.read_text(encoding="utf-8")
+if "<<<<<<< HEAD" in text:
+    new_text = re.sub(r"<<<<<<< HEAD.*?=======.*?>>>>>>>.*?\n", "", text, flags=re.DOTALL)
+    path.write_text(new_text, encoding="utf-8")
+    print(f"[+] Конфліктний код у {path} виправлено")
+else:
+    print(f"[*] Конфліктний код у {path} не знайдено")
+
+def ensure_file_exists(path_str, template_content=""): path = Path(path_str) if not path.exists(): path.parent.mkdir(parents=True, exist_ok=True) path.write_text(template_content, encoding="utf-8") print(f"[+] Створено відсутній файл {path}") else: print(f"[*] Файл {path} вже існує")
+
+def run_fixes(): print("[*] Запуск автоматичних виправлень...")
+
+fix_galxe_script()
+fix_auto_farm_reporter()
+
+ensure_file_exists("modules/zealy/zealy_farm.py", "print('Zealy farm stub')")
+ensure_file_exists("modules/layer3/layer3_farm.py", "print('Layer3 farm stub')")
+
+print("[+] Всі виправлення застосовано.")
+
+if name == "main": run_fixes()
+
